@@ -22,7 +22,6 @@ public class BrowserUtils {
         try{
             Thread.sleep(second);
         }catch (InterruptedException e){
-
         }
     }
     public static void switchWindowAndVerify(String expectedInURL, String expectedInTitle){
